@@ -1,3 +1,4 @@
+import { useState } from 'react'
 export const LikeDislike = () => {
     
     const [likes, setLikes] = useState(0);
